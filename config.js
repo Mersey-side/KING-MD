@@ -6,13 +6,13 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split("254102028964")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://KING-MDBOT:KING-MDBOT@cluster0.ltjjfkx.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'textnow1pak@gmail.com'
+global.email = 'derickstephenonyangooluoch@gmail.com'
 global.github = 'https://github.com/Mersey-side/KING-MD.git'
 global.location = 'pakistan'
 global.gurl = 'https://instagram.com/naveeddogar_' // add your username
 global.sudo = process.env.SUDO || '254102028964'
 global.devs = '254102028964';
-global.website = 'https://github.com/naveeddogar/KING-MD' // Hello world
+global.website = 'https://github.com/Mersey-side/KING-MD.git' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'KING-MD' : process.env.BOT_NAME,
