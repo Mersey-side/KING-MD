@@ -15,14 +15,14 @@ global.devs = '254102028964';
 global.website = 'https://github.com/naveeddogar/KING-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'KING-MD' : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '𝕄𝕖𝕣𝕤𝕖𝕪𝕤𝕚𝕕𝕖✰❃✰' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'MERSEYSIDE' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'MERSEYSIDE' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
   packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'King-Md' : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION ||  'true' ,
-  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'simp' : process.env.ANTI_BAD_WORD,
+  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'simp , save' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '212' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
